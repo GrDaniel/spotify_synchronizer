@@ -6,4 +6,7 @@ class SpotifySynchronizer(object):
 
     def _get_oauth_token(user_credentials):
         token = None
-        return token 
+        return token
+
+    def get_user_playlists(username):
+        return None
